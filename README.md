@@ -6,7 +6,11 @@ No idea. Empty repository for now
 
 ## Dev Usage:
 ```
-$ git clone 
+$ git clone git@github.com:MSoup/collect-faucet.git
+$ cd <root directory>
+$ source venv/scripts/activate
+$ pip install -r requirements.txt
+$ I don't know because I didn't actually do any of the above yet.
 ```
 
 ## Changelog:
