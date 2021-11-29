@@ -1,6 +1,9 @@
 # collect-faucet
 om nom nom faucets are delicious
 
+# Requirements:
+ChromeDriver: https://chromedriver.chromium.org/downloads  
+
 ## Usage:
 No idea. Empty repository for now 
 
