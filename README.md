@@ -4,6 +4,11 @@ om nom nom faucets are delicious
 ## Usage:
 No idea. Empty repository for now 
 
+## Dev Usage:
+```
+$ git clone 
+```
+
 ## Changelog:
 11/29: Project start
 
