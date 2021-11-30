@@ -3,10 +3,11 @@ om nom nom faucets are delicious
 
 ## Requirements:
 ChromeDriver: https://chromedriver.chromium.org/downloads  
-*IMPORTANT*  
+
+**IMPORTANT**  
 Without some sort of web driver, this will not work. I have excluded ChromeDriver from the repository because every user has different versions of operating systems and web browsers, so you may download the wrong version by simply cloning this repository. Please fetch the right version for your browser. Don't know the right version? Find the version of your web browser, then go to the download link above and fetch the corresponding driver. 
 
-**IMPORTANT2*  
+**IMPORTANT2**
 If you're not using Chrome, then you may need to update bits and pieces of the scripts. The scripts have been created for me only, and since I only intend to use Selenium with Chrome, I have hardcoded the instance of the webdriver. Please look at the code and adjust accordingly to your use case.
 
 ## Usage:
