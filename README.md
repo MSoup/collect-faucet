@@ -1,19 +1,21 @@
 # collect-faucet
 om nom nom faucets are delicious
 
-# Requirements:
+## Requirements:
 ChromeDriver: https://chromedriver.chromium.org/downloads  
 
 ## Usage:
-No idea. Empty repository for now 
+1. Download the correct version of chromedriver.exe from above
+2. Activate your virtual environment
+3. Run chromedriver
+4. Run test scripts
 
-## Dev Usage:
+## Installation:
 ```
 $ git clone git@github.com:MSoup/collect-faucet.git
 $ cd <root directory>
 $ source venv/scripts/activate
 $ pip install -r requirements.txt
-$ I don't know because I didn't actually do any of the above yet.
 ```
 
 ## References:
@@ -23,42 +25,11 @@ Follow these steps to setup your tests for running with ChromeDriver:
 
 Ensure Chromium/Google Chrome is installed in a recognized location
 
-ChromeDriver expects you to have Chrome installed in the default location for your platform. You can also force ChromeDriver to use a custom location by setting a special capability.
+ChromeDriver expects you to have Chrome installed in the default location for your platform.
+Download the ChromeDriver binary for your platform under the downloads section of the above requirements link.
 
-Download the ChromeDriver binary for your platform under the downloads section of this site
+For further references, please see REFERENCE.md
 
-Help WebDriver find the downloaded ChromeDriver executable
-
-Any of these steps should do the trick:
-
-include the ChromeDriver location in your PATH environment variable
-
-(Python only) include the path to ChromeDriver when instantiating webdriver.Chrome (see sample below)
-
-
-```
-import time
-
-from selenium import webdriver
-
-
-
-driver = webdriver.Chrome('/path/to/chromedriver')  # Optional argument, if not specified will search path.
-
-driver.get('http://www.google.com/');
-
-time.sleep(5) # Let the user actually see something!
-
-search_box = driver.find_element_by_name('q')
-
-search_box.send_keys('ChromeDriver')
-
-search_box.submit()
-
-time.sleep(5) # Let the user actually see something!
-
-driver.quit()
-```
 ## Changelog:
 11/29: Project start
 11/30: Learned mouse navigation, tab switching, opening and closing windows, searching for elements
