@@ -37,8 +37,8 @@ Download the ChromeDriver binary for your platform under the downloads section o
 For further references, please see REFERENCE.md
 
 ## Changelog:
-11/29: Project start
-11/30: Learned mouse navigation, tab switching, opening and closing windows, searching for elements
+- 11/29: Project start
+- 11/30: Learned mouse navigation, tab switching, opening and closing windows, searching for elements
 
 
 # Project Timeline
