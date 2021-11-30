@@ -12,17 +12,15 @@ driver = webdriver.Chrome(options=options)
 driver.get('http://www.google.com/')
 
 # Let the user actually see something!
-time.sleep(5) 
+time.sleep(2) 
 
 search_box = driver.find_element(by="name", value='q')
-
-print(search_box)
 
 search_box.send_keys('ChromeDriver')
 
 search_box.submit()
 
 # Let the user actually see something!
-time.sleep(5) 
+time.sleep(3) 
 
 driver.quit()
