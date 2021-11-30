@@ -61,7 +61,7 @@ driver.quit()
 ```
 ## Changelog:
 11/29: Project start
-
+11/30: Learned mouse navigation, tab switching, opening and closing windows, searching for elements
 
 
 # Project Timeline
