@@ -247,13 +247,13 @@ Dealing with Async operations
 
 The conditions available in the different language bindings vary, but this is a non-exhaustive list of a few:
 
-alert is present
-element exists
-element is visible
-title contains
-title is
-element staleness
-visible text
+- alert is present
+- element exists
+- element is visible
+- title contains
+- title is
+- element staleness
+- visible text
 
 See https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected
 
