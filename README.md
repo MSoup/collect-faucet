@@ -39,7 +39,7 @@ For further references, please see REFERENCE.md
 ## Changelog:
 - 11/29: Project start
 - 11/30: Learned mouse navigation, tab switching, opening and closing windows, searching for elements
-
+- 12/01: Learned how to automate logging into a web service (gitlab). Stored sensitive information in environment variables. 
 
 # Project Timeline
 Nov 29 - Dec 2: Learn Selenium  
